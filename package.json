@@ -1,0 +1,26 @@
+{
+  "name": "latin-words-com-proxy",
+  "version": "1.0.0",
+  "description": "Serverless proxy for latin-words.com API",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "keywords": [
+    "serverless",
+    "proxy",
+    "latin",
+    "vercel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vercel": "^41.6.2"
+  }
+}
